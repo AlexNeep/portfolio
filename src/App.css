@@ -1,5 +1,11 @@
+html {
+  background-color: #f7f7ff;
+}
 body {
   margin: 0;
+}
+a {
+  text-decoration: none;
 }
 h1 {
   font-size: 25px;
@@ -18,6 +24,7 @@ button {
   border: 0;
   padding: 0.75vh 2vh 0.75vh 2vh;
   transition: 0.3s ease-in;
+  z-index: 0;
 }
 
 button:hover {
@@ -40,6 +47,18 @@ button:hover {
   color: #fe5f55;
 }
 
+.vflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .background-image {
   /* background-image: url('./images/typewriter-2.jpg');
   background-position: center;
@@ -48,57 +67,6 @@ button:hover {
   /* margin: 0 0 5vh 0; */
 
   background-color: #f7f7ff;
-}
-nav {
-  opacity: 0.9;
-  background-color: #495867;
-  box-shadow: 0 0 2px 0 #495867;
-  backdrop-filter: blur(3px);
-}
-.nav-container {
-  overflow: auto;
-  width: 80%;
-  margin: 0 auto;
-}
-.nav-items {
-  float: right;
-  display: flex;
-  flex-direction: row;
-  margin: 3vh 0vh 3vh 0vh;
-}
-.nav-item {
-  margin: 0.5vh 1vh 0.5vh 1vh;
-  transition: 0.3s;
-  cursor: pointer;
-  color: #f7f7ff;
-
-  font-weight: 700;
-  text-shadow: 0px 1px 0px #577399;
-  font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
-}
-.nav-item:hover {
-  color: #fe5f55;
-  text-shadow: none;
-}
-
-/* Hero Secition */
-.hero-section {
-  text-align: center;
-  height: 40vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.hero-section .hero {
-  /* float:center; */
-  margin-left: 10vh;
-}
-.hero-section img {
-  height: 60vh;
-  border-radius: 5px;
-  box-shadow: 0 0 2px 0 grey;
 }
 
 /* Skills Section */
@@ -172,171 +140,4 @@ nav {
   margin-top: 2px;
 
   cursor: pointer;
-}
-
-.card {
-  background-color: #577399;
-
-  flex-basis: 30%;
-  min-width: 250px;
-
-  text-align: center;
-
-  margin: 1vh 1vh 1vh 1vh;
-  padding: 2vh 1vh 2vh 1vh;
-
-  border-radius: 5px;
-  box-shadow: 0 0 2px 0 grey;
-}
-.card .image {
-  margin: 0 auto;
-  width: 15vh;
-  height: 20vh;
-}
-.card .skills {
-  height: 15vh;
-  border-radius: 5px;
-  background-color: #f7f7ff;
-  box-shadow: 0 0 1px 1px #495867;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0.5vh 0 0.5vh;
-  padding: 2vh 0 2vh 0;
-}
-.card .description {
-  color: #f7f7ff;
-  margin: 2vh 0 2vh 0;
-}
-
-.card button .icon {
-  position: absolute;
-  width: 20%;
-
-  top: 0;
-  left: 0;
-  margin: 0 auto;
-
-  margin-left: 0.75vh;
-  margin-top: 0.75vh;
-}
-.card button .text {
-  margin-left: 10px;
-}
-.card button {
-  border-radius: 5px;
-  box-shadow: 0px 0px 1px 1px #495867;
-  margin: 1vh;
-
-  /* padding: 0.5vh 2vh 0.5vh 2vh; */
-
-  font-size: 18px;
-  font-weight: 600;
-
-  cursor: pointer;
-  position: relative;
-}
-.demo-button {
-  color: #577399;
-  background-color: #f7f7ff;
-}
-.github-button {
-  color: #f7f7ff;
-  background-color: #fe5f55;
-}
-
-.me-section {
-  text-align: center;
-  margin: 2vh 0 2vh 0;
-  width: 80%;
-  margin: 0 auto;
-}
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.icon-card {
-  background-color: #577399;
-
-  flex-basis: 20%;
-  min-width: 300px;
-
-  /* height: 30vh; */
-
-  text-align: center;
-
-  margin: 1vh 2vh 1vh 2vh;
-  padding: 2vh 2vh 2vh 2vh;
-
-  border-radius: 5px;
-  box-shadow: 0 0 2px 0 #577399;
-
-  overflow: hidden;
-  /* position: relative; */
-}
-.icon-card .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 70%;
-
-  margin: 1vh 0 1vh 0;
-}
-.title {
-  color: #f7f7ff;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 24px;
-  font-weight: 700;
-}
-.icon-card img {
-  width: 50%;
-}
-.icon-card .description {
-  color: #f7f7ff;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-}
-.icon-card button {
-  color: #f7f7ff;
-  background-color: #fe5f55;
-  border-radius: 2px;
-  box-shadow: 0 0 1px 1px #495867;
-
-  font-weight: 600;
-  font-size: 18px;
-
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-.footer img {
-  width: 100px;
-}
-
-.content-slide-left {
-  animation: content-slide-left 0.6s ease-in forwards;
-}
-@keyframes content-slide-left {
-  0% {
-    transform: translate3d(300px, 0, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-.content-slide-right {
-  animation: content-slide-right 0.6s ease-in forwards;
-}
-@keyframes content-slide-right {
-  0% {
-    transform: translate3d(-300px, 0, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
 }

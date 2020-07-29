@@ -1,0 +1,55 @@
+.icon-card {
+  background-color: #577399;
+
+  flex-basis: 20%;
+  min-width: 300px;
+
+  height: 30vh;
+
+  text-align: center;
+
+  margin: 1vh 2vh 1vh 2vh;
+  padding: 2vh 2vh 2vh 2vh;
+
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 #577399;
+
+  overflow: hidden;
+  /* position: relative; */
+}
+.icon-card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 70%;
+
+  margin: 1vh 0 1vh 0;
+}
+.title {
+  color: #f7f7ff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: 700;
+}
+.icon-card img {
+  width: 50%;
+}
+.icon-card .description {
+  color: #f7f7ff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+.icon-card button {
+  color: #f7f7ff;
+  background-color: #fe5f55;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 1px #495867;
+
+  font-weight: 600;
+  font-size: 18px;
+
+  margin-bottom: 10px;
+  cursor: pointer;
+}

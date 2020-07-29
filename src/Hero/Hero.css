@@ -1,0 +1,9 @@
+/* Hero Secition */
+
+.hero-section {
+  padding: 15vh 0 5vh 0;
+  text-align: center;
+}
+.hero-section .hero {
+  padding: 0vh 0 2vh 0;
+}

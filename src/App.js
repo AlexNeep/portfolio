@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import Nav from "./Nav";
-import Hero from "./Hero";
-import Skills from "./Skills";
-import About from "./About";
-import Footer from "./Footer";
+import Nav from "./Nav/Nav";
+import Hero from "./Hero/Hero";
+import Portfolio from "./Portfolio";
 
-import Card from "./SkillCard";
+import About from "./About/About";
+import Footer from "./Footer";
 
 class App extends Component {
   state = {
@@ -126,29 +125,6 @@ class App extends Component {
     this.setState(() => ({ skills }));
   };
 
-  sortedProjects = (project_array) => {
-    return project_array.sort((a, b) => {
-      return this.getActiveLength(b.skills) - this.getActiveLength(a.skills);
-    });
-  };
-
-  getActiveLength = (project_skills) => {
-    let allSkills = this.state.skills;
-    let activeSkills = [];
-    allSkills.forEach((skill) => {
-      if (skill.active) {
-        activeSkills.push(skill);
-      }
-    });
-    let length = 0;
-    activeSkills.forEach((activeSkill) => {
-      if (project_skills.includes(activeSkill.name)) {
-        length++;
-      }
-    });
-
-    return length;
-  };
   render() {
     return (
       <div className="App">
@@ -159,27 +135,15 @@ class App extends Component {
           <Hero />
         </div>
 
-        <div className="dark-background">
-          <div className="portfolio-section">
-            <Skills
-              skills={this.state.skills}
-              skillActivityHandler={this.skillActivityHandler}
-            />
-
-            <div className="portfolio-container">
-              {this.sortedProjects(this.state.projects).map((project) => (
-                <Card
-                  key={project.id}
-                  project={project}
-                  skills={this.state.skills}
-                  skillActivityHandler={this.skillActivityHandler}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-
         <About />
+
+        <div className="dark-background">
+          <Portfolio
+            skills={this.state.skills}
+            projects={this.state.projects}
+            skillActivityHandler={this.skillActivityHandler}
+          />
+        </div>
 
         <Footer />
       </div>

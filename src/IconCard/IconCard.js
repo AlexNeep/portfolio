@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
-import Button from "./Button";
+// import Button from "../Button";
+
+import "./IconCard.css";
 
 export default class IconCard extends Component {
   render() {

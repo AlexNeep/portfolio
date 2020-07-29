@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
-import IconCard from "./IconCard";
+import IconCard from "../IconCard/IconCard";
 
-import quick from "./images/fast.svg";
-import hardwork from "./images/effort-2.svg";
-import resourceful from "./images/resourceful.svg";
+import quick from "../images/fast.svg";
+import hardwork from "../images/effort-2.svg";
+import resourceful from "../images/resourceful.svg";
+
+import "./About.css";
 
 export default class About extends Component {
   state = {
@@ -58,7 +60,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <div className="me-section">
+      <div className="me-section" id="why-me">
         <h2 className="dark-blue">Key Skills</h2>
 
         <div className="flex">
@@ -74,13 +76,6 @@ export default class About extends Component {
             />
           ))}
         </div>
-
-        {/* <div>
-                    <h2 className='dark-blue'>Qualifications</h2>
-                    <p>Economics</p>
-                    <p>First Class BSc in Economics</p>
-                    <p>University of Warwick</p>
-                </div> */}
       </div>
     );
   }

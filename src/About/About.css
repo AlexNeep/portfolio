@@ -1,0 +1,36 @@
+.me-section {
+  text-align: center;
+
+  width: 80%;
+  margin: 0 auto;
+  padding: 0vh 0 5vh 0;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-slide-left {
+  animation: content-slide-left 0.6s ease-in forwards;
+}
+@keyframes content-slide-left {
+  0% {
+    transform: translate3d(300px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.content-slide-right {
+  animation: content-slide-right 0.6s ease-in forwards;
+}
+@keyframes content-slide-right {
+  0% {
+    transform: translate3d(-300px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}

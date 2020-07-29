@@ -1,0 +1,17 @@
+.contact-links img {
+  width: 100px;
+}
+.contact-links .link {
+  margin: 0 7.5vh 0 7.5vh;
+}
+/* .contact-links .hover {
+  animation: hover 0.3s ease-in forwards;
+}
+@keyframes hover {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
