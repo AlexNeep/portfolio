@@ -23,7 +23,7 @@ export default class About extends Component {
         id: 1,
         title: "Quick Learner",
         description:
-          "Over the past 12 months, I have enjoyed learning how to use complex languages and frameworks. I have learnt how to work with React, Flask, and Cloud Computing Software and have used them in production settings.",
+          "Over the past 12 months, I have enjoyed learning how to use complex languages and frameworks. I learned how to work with React, Flask, and Cloud Computing Software and have used them in production settings.",
         image: quick,
         opened: false,
       },
@@ -31,7 +31,7 @@ export default class About extends Component {
         id: 2,
         title: "Resourceful",
         description:
-          "Whilst growing LanguageMate, I had to independently learn many new skills, including languages such as Python, JavaScript and PHP.",
+          "Whilst growing LanguageMate, I had to independently learn many new skills, including languages such as Python, JavaScript, and PHP.",
         image: resourceful,
         opened: false,
       },
