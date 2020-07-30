@@ -12,8 +12,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy" :"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -26,7 +26,7 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not ie <= 11"
     ],
     "development": [
       "last 1 chrome version",
