@@ -5,6 +5,7 @@ import github from "../images/github-blue.svg";
 import eye from "../images/view.svg";
 
 import Skill from "../Skill";
+import PortfolioButton from "../Portfolio/PortfolioButton";
 
 import "./SkillCard.css";
 
@@ -36,27 +37,20 @@ export default class SkillCard extends Component {
           <div className="description">{this.props.project.description}</div>
 
           <div className="buttons">
-            <a
-              href={this.props.project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="demo-button">
-                <img className="icon" src={eye} alt="eye icon" />
-                <span className="text">View</span>
-              </button>
-            </a>
-
-            <a
-              href={this.props.project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="github-button">
-                <img className="icon" src={github} alt="Github Icon" />
-                <span className="text">Github</span>
-              </button>
-            </a>
+            <PortfolioButton
+              link={this.props.project.link}
+              class="demo-button"
+              icon={eye}
+              alt="eye icon"
+              text="View"
+            />
+            <PortfolioButton
+              link={this.props.project.github}
+              class="github-button"
+              icon={github}
+              alt="Github icon"
+              text="Github"
+            />
           </div>
         </div>
       );

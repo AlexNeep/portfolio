@@ -3,21 +3,21 @@ import "./App.css";
 
 import Nav from "./Nav/Nav";
 import Hero from "./Hero/Hero";
-import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio/Portfolio";
 
 import About from "./About/About";
-import Footer from "./Footer";
+import Footer from "./Footer/Footer";
 
 class App extends Component {
   state = {
     projects: [
       {
         id: 1,
-        title: "LanguageMate",
-        description: "Desc bla bla",
+        title: "LanguageMate (2020)",
+        description: "",
         image: "",
         link: "https://language-mate.com",
-        github: "https://google.com",
+        github: "",
         skills: [
           "JavaScript",
           "React",
@@ -32,29 +32,38 @@ class App extends Component {
       {
         id: 2,
         title: "TravelMate",
-        description: "Desc bla bla",
+        description: "",
         image: "",
-        link: "https://language-mate.com",
-        github: "https://google.com",
+        link: "",
+        github: "https://github.com/alexNeep/TravelMate",
         skills: ["JavaScript", "HTML", "CSS", "React"],
       },
       {
         id: 3,
         title: "Portfolio Page",
-        description: "Desc bla bla",
+        description: "",
         image: "",
-        link: "https://language-mate.com",
-        github: "https://google.com",
+        link: "",
+        github: "https://github.com/alexNeep/portfolio",
         skills: ["JavaScript", "HTML", "CSS", "React"],
       },
       {
         id: 4,
         title: "MyReads App",
-        description: "Desc bla bla",
+        description: "",
         image: "",
-        link: "https://language-mate.com",
-        github: "https://google.com",
+        link: "",
+        github: "https://github.com/alexNeep/TravelMate",
         skills: ["JavaScript", "HTML", "React", "CSS"],
+      },
+      {
+        id: 5,
+        title: "LanguageMate (2019)",
+        description: "",
+        image: "",
+        link: "https://web.language-mate.com/",
+        github: "",
+        skills: ["PHP", "HTML", "SQL", "CSS"],
       },
     ],
     skills: [
@@ -106,6 +115,7 @@ class App extends Component {
         color: "#4285F4",
         active: true,
       },
+      { key: 7, name: "PHP", text: "white", color: "#5367B6", active: true },
     ],
   };
 
@@ -135,8 +145,6 @@ class App extends Component {
           <Hero />
         </div>
 
-        <About />
-
         <div className="dark-background">
           <Portfolio
             skills={this.state.skills}
@@ -144,7 +152,7 @@ class App extends Component {
             skillActivityHandler={this.skillActivityHandler}
           />
         </div>
-
+        <About />
         <Footer />
       </div>
     );

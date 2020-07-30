@@ -1,0 +1,19 @@
+/* Portfolio Section */
+.portfolio-section {
+  background-color: #f7f7ff;
+  overflow: auto;
+  width: 80%;
+  margin: 0 auto;
+
+  /* border: 1px solid #000000; */
+  box-shadow: 0 0 2px 0 grey;
+  border-radius: 5px;
+
+  padding: 1vh 1vh 1vh 1vh;
+}
+.portfolio-section .portfolio-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}

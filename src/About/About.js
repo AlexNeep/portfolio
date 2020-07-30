@@ -14,21 +14,24 @@ export default class About extends Component {
       {
         id: 0,
         title: "Hardworking",
-        description: "bla bla bla bla bla",
+        description:
+          "My infectious motivation has been key to LanguageMate's rapid growth over the last year",
         image: hardwork,
         opened: false,
       },
       {
         id: 1,
         title: "Quick Learner",
-        description: "bla bla bla bla bla",
+        description:
+          "Over the past 12 months, I have enjoyed learning how to use complex languages and frameworks. I have learnt how to work with React, Flask, and Cloud Computing Software and have used them in production settings.",
         image: quick,
         opened: false,
       },
       {
         id: 2,
         title: "Resourceful",
-        description: "bla bla bla bla bla",
+        description:
+          "Whilst growing LanguageMate, I had to independently learn many new skills, including languages such as Python, JavaScript and PHP.",
         image: resourceful,
         opened: false,
       },

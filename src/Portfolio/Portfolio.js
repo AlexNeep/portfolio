@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-import Skills from "./Skills";
-import SkillCard from "./SkillCard/SkillCard";
+import Skills from "../Skills";
+import SkillCard from "../SkillCard/SkillCard";
 
+import "./Portfolio.css";
 export default class Portfolio extends Component {
   sortedProjects = (project_array) => {
     return project_array.sort((a, b) => {
