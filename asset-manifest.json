@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3e95f9f.chunk.css",
-    "main.js": "/static/js/main.aea9bf57.chunk.js",
-    "main.js.map": "/static/js/main.aea9bf57.chunk.js.map",
+    "main.css": "/static/css/main.005f8865.chunk.css",
+    "main.js": "/static/js/main.f4d0a8c3.chunk.js",
+    "main.js.map": "/static/js/main.f4d0a8c3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.92ee656d.js",
     "runtime-main.js.map": "/static/js/runtime-main.92ee656d.js.map",
     "static/js/2.2f2016d6.chunk.js": "/static/js/2.2f2016d6.chunk.js",
     "static/js/2.2f2016d6.chunk.js.map": "/static/js/2.2f2016d6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.63fb10f34dd6cbe8e39bde21bbc0ca06.js": "/precache-manifest.63fb10f34dd6cbe8e39bde21bbc0ca06.js",
+    "precache-manifest.4dfdb05c74630cf66ba68ac7a45c089a.js": "/precache-manifest.4dfdb05c74630cf66ba68ac7a45c089a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a3e95f9f.chunk.css.map": "/static/css/main.a3e95f9f.chunk.css.map",
+    "static/css/main.005f8865.chunk.css.map": "/static/css/main.005f8865.chunk.css.map",
     "static/js/2.2f2016d6.chunk.js.LICENSE.txt": "/static/js/2.2f2016d6.chunk.js.LICENSE.txt",
     "static/media/LanguageMate-2019.png": "/static/media/LanguageMate-2019.42009640.png",
     "static/media/LanguageMate-demo.png": "/static/media/LanguageMate-demo.221aa8c6.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.92ee656d.js",
     "static/js/2.2f2016d6.chunk.js",
-    "static/css/main.a3e95f9f.chunk.css",
-    "static/js/main.aea9bf57.chunk.js"
+    "static/css/main.005f8865.chunk.css",
+    "static/js/main.f4d0a8c3.chunk.js"
   ]
 }
