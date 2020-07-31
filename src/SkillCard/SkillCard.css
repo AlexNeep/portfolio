@@ -13,9 +13,11 @@
   box-shadow: 0 0 2px 0 grey;
 }
 .card .image {
+  padding: 5% 0 5% 0;
+}
+.card img {
   margin: 0 auto;
-  width: 15vh;
-  height: 20vh;
+  width: 80%;
 }
 .card .skills {
   height: 15vh;
@@ -33,6 +35,7 @@
 .card .description {
   color: #f7f7ff;
   margin: 2vh 0 2vh 0;
+  font-family: "Courier New", Courier, monospace;
 }
 /* .card button {
   position: relative;

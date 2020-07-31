@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import logo from "../images/logo.svg";
 import github from "../images/github-blue.svg";
 import eye from "../images/view.svg";
 
@@ -17,7 +16,10 @@ export default class SkillCard extends Component {
           <div className="title">{this.props.project.title}</div>
 
           <div className="image">
-            <img src={logo} alt="portfolio snapshot" />
+            <img
+              src={require(`../images/${this.props.project.image}.png`)}
+              alt="portfolio snapshot"
+            />
           </div>
 
           <div className="skills">

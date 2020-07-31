@@ -31,6 +31,7 @@ export default class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio-section dark-background" id="portfolio">
+        <h1 className="dark-blue">Portfolio</h1>
         <Skills
           skills={this.props.skills}
           skillActivityHandler={this.props.skillActivityHandler}
