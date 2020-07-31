@@ -9,12 +9,13 @@ a {
   text-decoration: none;
 }
 h1 {
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 700;
   font-family: "Courier New", Courier, monospace;
 }
 h2 {
   font-size: 20px;
+  font-weight: 700;
   font-family: "Courier New", Courier, monospace;
 }
 h3 {

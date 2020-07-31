@@ -36,8 +36,6 @@ export default class SkillCard extends Component {
               ))}
           </div>
 
-          <div className="description">{this.props.project.description}</div>
-
           <div className="buttons">
             <PortfolioButton
               link={this.props.project.link}
@@ -54,6 +52,7 @@ export default class SkillCard extends Component {
               text="Github"
             />
           </div>
+          <div className="description">{this.props.project.description}</div>
         </div>
       );
     } else {

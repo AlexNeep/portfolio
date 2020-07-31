@@ -64,7 +64,7 @@ export default class About extends Component {
   render() {
     return (
       <div className="me-section" id="why-me">
-        <h2 className="dark-blue">Key Skills</h2>
+        <h1 className="dark-blue">Key Skills</h1>
 
         <div className="flex">
           {this.state.skills.map((skill) => (
