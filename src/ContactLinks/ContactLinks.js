@@ -39,7 +39,7 @@ export default class ClassLinks extends Component {
     }
 
     return (
-      <div className="contact-links hflex center">
+      <div className="contact-links">
         <div className="link">
           <a
             onMouseEnter={() => this.githubStateHandler(true)}

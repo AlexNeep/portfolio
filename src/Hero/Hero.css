@@ -1,6 +1,8 @@
 /* Hero Secition */
 
 .hero-section {
+  width: 80%;
+  margin: 0 auto;
   padding: 15vh 0 5vh 0;
   text-align: center;
 }
