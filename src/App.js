@@ -38,7 +38,7 @@ class App extends Component {
         description:
           "I am creating an app using SkyScanner's public flight data API. The React.js web app analyses the flight prices, flight times, user's holiday style, etc to suggest the best flights for the user from nearby airports.",
         image: "FlyAnywhere",
-        link: "",
+        link: "https://flyanywhere.app",
         github: "https://github.com/alexNeep/TravelMate",
         skills: ["JavaScript", "HTML", "CSS", "React"],
       },
