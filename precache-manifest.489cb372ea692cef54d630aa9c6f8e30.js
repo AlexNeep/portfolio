@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ef3630ff2a0c6cdd5e46d5a20fdff98e",
+    "revision": "2040bb7d486408ee9a39cb8ee5bfe2a8",
     "url": "/index.html"
   },
   {
-    "revision": "b09dc21a393c0faecf88",
-    "url": "/static/css/main.12fb6c2d.chunk.css"
+    "revision": "332687a0a0711fd66052",
+    "url": "/static/css/main.47ee5c23.chunk.css"
   },
   {
     "revision": "cb857d29be279bc15099",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2f2016d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b09dc21a393c0faecf88",
-    "url": "/static/js/main.0b5d357e.chunk.js"
+    "revision": "332687a0a0711fd66052",
+    "url": "/static/js/main.2abe563e.chunk.js"
   },
   {
     "revision": "ec9875811aa0f00c2e31",
     "url": "/static/js/runtime-main.92ee656d.js"
+  },
+  {
+    "revision": "c6497e949f1222dd4414f8757470541c",
+    "url": "/static/media/FlyAnywhere.c6497e94.png"
   },
   {
     "revision": "4200964018b8b07bf8ca295160068e3a",
@@ -34,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17abcf62de756394b1702cf41d63e809",
     "url": "/static/media/MyReads.17abcf62.png"
-  },
-  {
-    "revision": "18e0c9795152f00c13ffe99935c19874",
-    "url": "/static/media/TravelMate.18e0c979.png"
   },
   {
     "revision": "b486f818eb5bf76342cca1a4b877ad1c",
