@@ -15,6 +15,12 @@
 .card .image {
   padding: 5% 0 5% 0;
 }
+.card .date {
+  color: #f7f7ff;
+  margin: 0vh 0 2vh 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
 .card img {
   margin: 0 auto;
   width: 80%;

@@ -14,6 +14,7 @@ class App extends Component {
       {
         id: 1,
         title: "LanguageMate (2020)",
+        date: "May & June 2020",
         description:
           "LanguageMate allows a user to learn a foreign language whilst reading the news in their native language. I created the Python backend Natural Language Processing API using the Flask to translate the user's news article within seconds. I built the frontend UI with JavaScript.",
         image: "LanguageMate-demo",
@@ -32,10 +33,11 @@ class App extends Component {
       },
       {
         id: 2,
-        title: "TravelMate",
+        title: "Fly Anywhere",
+        date: "August 2020",
         description:
           "I am creating an app using SkyScanner's public flight data API. The React.js web app analyses the flight prices, flight times, user's holiday style, etc to suggest the best flights for the user from nearby airports.",
-        image: "TravelMate",
+        image: "FlyAnywhere",
         link: "",
         github: "https://github.com/alexNeep/TravelMate",
         skills: ["JavaScript", "HTML", "CSS", "React"],
@@ -43,6 +45,7 @@ class App extends Component {
       {
         id: 3,
         title: "Portfolio Page",
+        date: "July 2020",
         description:
           "I used React to keep the components separate and easy to debug. I utilised React's State Management system to make the skills selection.",
         image: "portfolio",
@@ -53,6 +56,7 @@ class App extends Component {
       {
         id: 4,
         title: "MyReads App",
+        date: "July 2020",
         description:
           "This was my first React App. I followed a tutorial to learn the basics and then completed this example project from scratch. I quickly learned the core principles of React.",
         image: "MyReads",
@@ -63,6 +67,7 @@ class App extends Component {
       {
         id: 5,
         title: "LanguageMate (2019)",
+        date: "December 2019",
         description:
           "I used Google's Translate API to create interactive news articles for my users. The users could learn using their account. I used PHP for the backend and hosted the data on a MySQL Database.",
         image: "LanguageMate-2019",

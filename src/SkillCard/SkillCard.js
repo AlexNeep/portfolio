@@ -14,7 +14,7 @@ export default class SkillCard extends Component {
       return (
         <div className="card">
           <div className="title">{this.props.project.title}</div>
-
+          <div className="date">{this.props.project.date}</div>
           <div className="image">
             <img
               src={require(`../images/${this.props.project.image}.png`)}
